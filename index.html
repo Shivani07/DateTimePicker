@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>DateTimePicker</title>
+ 
+	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css"/>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.datetimepicker.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+			$('#datetimepicker').datetimepicker({
+            format: 'd/m/Y g:i A'
+        });	
+		});
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 top-buffer">
+				<h3>DatePicker</h3>
+				<input type="text" id="datetimepicker"/>
+            </div>
+        </div>
+    </div>
+</body>   
+</html>
